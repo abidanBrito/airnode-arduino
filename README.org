@@ -1,0 +1,21 @@
+#+TITLE: airtracker-arduino
+#+AUTHOR: Abidán Brito (abidanBrito)
+
+** MOTIVATION
+This repository stores the embedded software for an air quality tracking device, along with the corresponding design documents.
+
+** BOARD INSTALLATION & HOW TO USE
+Make sure that you have installed and opened Arduino IDE before following along:
+
+1. Preferences -> Aditional URL Boards Manager -> Paste this: "https://www.adafruit.com/package_adafruit_index.json"
+2. Tools -> Board -> Boards Manager. Look for "nRF52" and install the "Adafruit nRF52 by Adafruit" module.
+3. Tools -> Port -> Pick the available port. 
+4. Tools -> Boards -> SparkFun Pro nRF52840 Mini.
+5. Load in the project within the IDE.
+6. Compile & upload the code to the board.
+
+** TESTING
+Embedded applications are tricky to test via Unit Testing, but you may use apps like nRF Connect to find the generated iBeacons.
+
+# DOCUMENTATION
+# It can be found in the form of a [[doc/design_arduino.pdf][PDF file]] under doc. 
